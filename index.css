@@ -16,9 +16,20 @@ body {
 
   }
   
-  .item {
-    width: 60px;
-    height: 60px
-    background: skyblue;
-    border: 4px solid black;
+  .centerPhotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .centerPhotos img {
+    border: 5px solid black;
+    width: 1000px;
+    height: 1000px;
+  }
+  .centerPhotos p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    
   }
