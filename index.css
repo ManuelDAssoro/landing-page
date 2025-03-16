@@ -1,9 +1,0 @@
-section {
-  border: 4px solid lime;
-  min-height: 200px;
-}
-
-header, footer, main {
-  border: 4px solid brown;
-  min-height: 50px;
-}
