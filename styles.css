@@ -49,7 +49,7 @@ table {
 }
 
 
-/* GUIDELINES 
+/* GUIDELINES  
 
 section {
   border: 4px solid lime;  
@@ -114,8 +114,32 @@ hero-module picture {
   }
 }
 
-/* GENERAL */
+/* HEADER */
 
+header {
+  background-color: #1f2937;
+}
+
+header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+
+header-content header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+header-content header-links a{
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin: 1vh;
+}
+
+/* */
 section {
     
 }
@@ -132,9 +156,7 @@ header, footer, main {
 
 }
 
-header {
-  background-color: #1f2937;
-}
+
 
 div {
   padding: 5px;
@@ -169,3 +191,8 @@ footer {
   background-color: #1f2937;
 }
 
+/* ANCHOR COLOR */
+
+a:visited {
+  color: #e5e7eb;
+}
