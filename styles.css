@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: "Roboto";
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -49,6 +50,7 @@ table {
 }
 
 
+
 /* GUIDELINES  
 
 section {
@@ -62,12 +64,37 @@ div {
 }  
 */
 
+/* HEADER */
+
+header {
+  background-color: #1f2937;
+}
+
+header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+header-content header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+header-content header-links a{
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin: 1vh;
+}
 
 /* MODULES */
 
 hero-module {
+  margin-top: 10vh;
   display: block;
   background-color: #1f2937;
+  margin-bottom: 10vh;
 }
 
 hero-module text {
@@ -80,7 +107,7 @@ hero-module text h1 {
   color: #f9faf8;
   font-weight: 900;
   margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 hero-module text p {
@@ -89,7 +116,7 @@ hero-module text p {
 }
 
 hero-module button {
-  margin-top: 10px; 
+  margin-top: 2vh; 
   background-color: #3882f6;
   color: white;  
   display:inline-block;
@@ -114,29 +141,47 @@ hero-module picture {
   }
 }
 
-/* HEADER */
+/* INFORMATION */
 
-header {
-  background-color: #1f2937;
+information {
+  display:block;
 }
 
-header-content {
-  display: flex;
+information h2{
+  margin: 4vh;        
+  text-align:center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  flex-grow: 1;
+}
+
+information div img {
+  flex-grow: 1;
+  max-width: 200px;
+  min-width: 75px;     
+  border-radius: 10px;
+  border: 4px solid #3882f6; 
+}
+
+div .images{
+  justify-content: space-around;
+  display:flex;
   flex-direction: row;
-  justify-content: space-between;
-  flex-basis: 50%;
+  flex-wrap: wrap;
 }
 
-header-content header-logo {
-  font-size: 24px;
-  color: #F9FAF8;
+div .item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  max-width: 200px;
+  margin: 5px;
 }
 
-header-content header-links a{
-  font-size: 18px;
-  color: #e5e7eb;
-  text-decoration: none;
-  margin: 1vh;
+span {
+  display:block;
 }
 
 /* */
