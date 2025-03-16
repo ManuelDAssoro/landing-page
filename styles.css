@@ -88,7 +88,11 @@ header-content header-links a{
   margin: 1vh;
 }
 
-/* MODULES */
+/* HERO MODULE */
+
+.hero {
+  background-color: #1f2937;
+}
 
 hero-module {
   margin-top: 10vh;
@@ -141,10 +145,11 @@ hero-module picture {
   }
 }
 
-/* INFORMATION */
+/* INFORMATION MODULE */
 
 information {
   display:block;
+  margin-bottom: 4vh;
 }
 
 information h2{
@@ -184,18 +189,46 @@ span {
   display:block;
 }
 
+/* QUOTE MODULE*/
+.quote {
+  background-color: #e5e7eb;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}  
+.quote div{
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+
+}
+
+quote { 
+  text-align: justify;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  margin: 1vh;
+}
+
+signature {
+  font-family: "Roboto";
+  font-style: bold;
+  font-size: 24px;
+  color: black;
+  text-align: right;
+  align-self: flex-end;
+  margin: 1vh;  
+}
+
 /* */
 section {
     
 }
 
-.hero {
-  background-color: #1f2937;
-}
 
-.quote {
-  background-color: #e5e7eb
-}  
 
 header, footer, main {
 
