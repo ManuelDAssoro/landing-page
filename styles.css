@@ -77,6 +77,8 @@ header-content {
 }
 
 header-content header-logo {
+  min-height: 64px;
+  min-width: 64px;
   font-size: 24px;
   color: #F9FAF8;
 }
