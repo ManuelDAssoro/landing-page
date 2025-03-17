@@ -241,6 +241,7 @@ div {
   display:block;
   width: 98%;
   max-width: 900px;
+  max-height: auto;
   margin-right: auto;
   margin-left: auto;
 }
@@ -268,9 +269,15 @@ img {
 footer {
   background-color: #1f2937;
 }
+footer text {
+  margin: 2vh;
+  color: white;
+  text-align: center;
+}
+
 
 /* ANCHOR COLOR */
 
-a:visited {
+a:visited { 
   color: #e5e7eb;
 }
